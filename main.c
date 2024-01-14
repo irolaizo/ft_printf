@@ -14,6 +14,7 @@ int main (void)
 	i = printf("ORIGINAL: %u\n", total);
 	j = ft_printf("MIO: %u\n", total);
 
+	printf("\n");
 	printf("---------TEST %%u-NEGATIVO----------\n");
 	total = -120;
 	i = printf("ORIGINAL: %u\n", total);
