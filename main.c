@@ -9,13 +9,13 @@ int main (void)
 	int		i;
 	int		j;
 
-/* 	total = -120;
-	i = printf("ORIGINAL: %u\n", total);
-	j = ft_printf(("MIO: %u\n", total));
-	printf("%d: %d: ", i, j); */
-
-	printf("---------TEST %%u-----------\n");
+	printf("---------TEST %%u-POSITIVO----------\n");
 	total = 120;
+	i = printf("ORIGINAL: %u\n", total);
+	j = ft_printf("MIO: %u\n", total);
+
+	printf("---------TEST %%u-NEGATIVO----------\n");
+	total = -120;
 	i = printf("ORIGINAL: %u\n", total);
 	j = ft_printf("MIO: %u\n", total);
 
